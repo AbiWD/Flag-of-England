@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>England's flag project</title>
+    <style>
+        .flag{
+            background-color:white ;
+            width: 900px;
+            height: 400px;
+            position: relative;
+            border: 2px solid black;
+        }
+
+        .box1{
+            background-color: red;
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            top: 150px;
+            z-index: 1;
+        }
+
+        .box2{
+            background-color: red;
+            height: 400px;
+            width: 100px;
+            position: relative;
+            left: 400px;
+        }
+        .box1 > p{
+            text-align: center;
+            color: white;
+            font-size: 5rem;
+            margin: 0%;
+            padding: 0%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="box1">
+             <p>ENGLAND</p>
+        </div>
+        <div class="box2"> 
+        </div>
+    </div>
+</body>
+</html>
